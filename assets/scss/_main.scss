@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --DarkCyan: #00838f;
+  --TurkishRose: #bc658d;
+  --Gunmetal: #2c333a;
+  --ViridianGreen: #009ba2;
+  --White: #ffffff;
+  --Rhythm: #69779b;
+  --CaribbeanGreen: #00c5a2;
+  --OldLavender: #756c83;
+  --AmericanPurple: #432160;
+  --ChineseBlue: #415b90;
+  --DarkSlateGray: #314a52;
+  --MaximumRedPurple: #a03c78;
+  --DarkLavender: #6f539b;
+  --MetallicBlue: #3c5186;
+  --TiffanyBlue: #0fabbc;
+  --PoliceBlue: #394a6d;
+  --Corn: #fbeb5b;
+  --LimeGreen: #4be133;
+  --OldRose: #394a6d;
+  --Magnolia: #f4f3fe;
+  --ChineseSilver: #cccccc;
+  --LavenderGray: #c5c0db;
+  --DeepGreen-CyanTurquoise: #206d62;
+
+  // FONT STYLE
+  --Nunito: "Nunito", sans-serif;
+  --Montserat: "Montserrat", sans-serif;
+}
+
+.DarkLavender {
+  background-color: var(--DarkLavender);
+}
+.DeepGreen-CyanTurquoise {
+  background-color: var(--DeepGreen-CyanTurquoise);
+}
+.LavenderGray {
+  background-color: var(--LavenderGray);
+}
+.DarkSlateGray {
+  background-color: var(--DarkSlateGray);
+}
+.ChineseBlue {
+  background-color: var(--ChineseBlue);
+}
+.ChineseSilver {
+  background-color: var(--ChineseSilver);
+}
+.Corn {
+  background-color: var(--Corn);
+}
+.Magnolia {
+  background-color: var(--Magnolia);
+}
+.OldRose {
+  background-color: var(--OldRose);
+}
+.LimeGreen {
+  background-color: var(--LimeGreen);
+}
+.PoliceBlue {
+  background-color: var(--PoliceBlue);
+}
+.TiffanyBlue {
+  background-color: var(--TiffanyBlue);
+}
+.MetallicBlue {
+  background-color: var(--MetallicBlue);
+}
+.MaximumRedPurple {
+  background-color: var(--MaximumRedPurple);
+}
+//
+.DarkCyan {
+  background-color: var(--DarkCyan);
+}
+.TurkishRose {
+  background-color: var(--TurkishRose);
+}
+.Rhythm {
+  background-color: var(--Rhythm);
+}
+.CaribbeanGreen {
+  background-color: var(--CaribbeanGreen);
+}
+.AmericanPurple {
+  background-color: var(--AmericanPurple);
+}
+.TurkishRose {
+  background-color: var(--TurkishRose);
+}
+.Gunmetal {
+  background-color: var(--Gunmetal);
+}
+.ViridianGreen {
+  background-color: var(--ViridianGreen);
+}
+.Rhythm {
+  background-color: var(--Rhythm);
+}
+.CaribbeanGreen {
+  background-color: var(--CaribbeanGreen);
+}
+.OldLavender {
+  background-color: var(--OldLavender);
+}
+
+.White {
+  background-color: var(--White);
+  color: var(--White);
+}
+.WhiteC {
+  color: var(--White);
+}
+a {
+  color: unset;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--Montserat);
+  color: var(--Gunmetal);
+  font-weight: 500;
+  line-height: 110%;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 43px;
+  margin-bottom: 60px;
+  line-height: 52px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 48px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+@mixin h6 {
+  font-family: var(--Nunito);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@mixin p {
+  font-family: var(--Nunito);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--Gunmetal);
+  margin: 8px 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+hr {
+  border: 1px solid var(--Gunmetal);
+  margin: 40px 0;
+}
+ul {
+  li {
+    @include p;
+  }
+}
+a {
+  font-family: var(--Montserat);
+}
+p,
+span,
+li {
+  @include p;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+@mixin button {
+  width: 100%;
+  margin: 28px 0 10px 0;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  background-color: unset;
+  font-family: var(--Montserat);
+  outline: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+button {
+  @include button;
+  &:disabled {
+    opacity: 0.5;
+    background-color: unset;
+    color: var(--ChineseSilver);
+    border: 1px solid rgba(204, 204, 204, 0.4);
+  }
+}
+
+.default-btn {
+  @include button;
+  background-color: var(--ChineseSilver);
+}
+.important-btn {
+  @include button;
+  background-color: var(--DarkCyan);
+  color: var(--White);
+}
+.primary-btn {
+  @include button;
+  background-color: var(--Gunmetal);
+  color: var(--White);
+}
+.danger-btn {
+  @include button;
+  background-color: #ea5f5e;
+  color: var(--White);
+}
+nav {
+  height: 60px;
+  padding: 18px 0;
+  background-color: var(--White);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05), 0px 2px 8px rgba(0, 0, 0, 0.05);
+  .navbar {
+    img {
+      width: 177px;
+      height: 25px;
+      object-fit: cover;
+    }
+  }
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: var(--Montserat);
+  margin: 25px 0;
+  font-size: 18px;
+  width: 100%;
+  thead {
+    tr {
+      background-color: var(--LavenderGray);
+      text-align: left;
+      border: 1px solid var(--Gunmetal);
+      color: var(--Gunmetal);
+      font-weight: bold;
+      &:nth-of-type(1) {
+        background-color: #f3f3f3;
+      }
+    }
+  }
+  tbody {
+    tr {
+      border: 1px solid var(--Gunmetal);
+      font-size: 15px;
+      &:nth-of-type(1) {
+        background-color: #f3f3f3;
+        // font-family: Nunito;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+    }
+  }
+
+  th,
+  td {
+    padding: 24px 18px;
+  }
+}
+.pagination {
+  display: inline-block;
+  // max-width: 612px;
+  width: 100%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  // font-style: var(--Nunito);
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  font-weight: 600;
+  // font-style: var(--Nunito);
+  padding: 8px 16px;
+  margin: 0 5px;
+  text-decoration: none;
+  &:hover {
+    color: var(--DarkCyan);
+  }
+}
+
+.pagination a.active {
+  // background-color: #4caf50;
+  border-bottom: 3px solid var(--DarkCyan);
+  font-weight: 600;
+  // border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 60px;
+  }
+}

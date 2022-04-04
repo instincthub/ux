@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/instincthub-thumnail.png"
+    />
+    <title>Instincthub - Data Visualization</title>
+    <link rel="stylesheet" href="../assets/scss/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="container navbar">
+          <img src="../assets/svgs/instinctHub.svg" alt="" />
+        </div>
+      </nav>
+
+      <section class="banner-ff">
+        <div class="banner_txt container">
+          <h1>Instincthub Pattern Library</h1>
+          <p>Our pattern library used to build the instincthub application.</p>
+        </div>
+      </section>
+
+      <article class="container typos">
+        <!-- ===========
+        SELECTION FIELD
+        ================ -->
+        <aside>
+          <div class="side_wrap">
+            <h5>FOUNDATION</h5>
+
+            <ul class="club1">
+              <li><a href="../index.html">Color</a></li>
+              <li>
+                <a href="../components/visual.html">Data Visualization</a>
+              </li>
+              <li class="current">
+                <a href="../components/grid.html">Grid System</a>
+              </li>
+              <li><a href="../components/typo.html">Typography</a></li>
+            </ul>
+
+            <h5>COMPONENTS</h5>
+            <ul class="club1">
+              <li><a href="">Button</a></li>
+              <li><a href="">Dialog</a></li>
+              <li><a href="">Tools Box</a></li>
+              <li><a href="">Form Elements</a></li>
+              <li><a href="">Helper Classes</a></li>
+              <li><a href="">Iconography</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- ============
+        CONTENTS SELECTED
+        ================= -->
+        <article>
+          <h2>Grid System</h2>
+
+          <div class="initial">
+            <a href="#">Grid sizes</a>
+            <a href="#">Grid gutter</a>
+            <a href="#">Mixed grids</a>
+            <a href="#">Responsive columns</a>
+            <hr />
+            <p>
+              Our grid system is composed of 12 flexible columns with a gutter
+              between columns of 20px. We apply border-box so that the border
+              and padding is included in the width of the grid columns.
+            </p>
+          </div>
+
+          <div class="units">
+            <h3>Grid sizes</h3>
+
+            <div class="p_size">
+              <p>Sizes 1 of 1</p>
+
+              <div class="unit size1of3">
+                <h4>1/1</h4>
+              </div>
+            </div>
+
+            <div class="p_size">
+              <p>Sizes 1 of 2</p>
+
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_50" style="height: 60px">
+                  <h4>1/2</h4>
+                </div>
+                <div class="size Gunmetal w_50" style="height: 60px">
+                  <h4>1/2</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="p_size">
+              <p>Sizes 1 of 3</p>
+
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="p_size">
+              <p>Sizes 1 of 4</p>
+
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_25" style="height: 60px">
+                  <h4>1/4</h4>
+                </div>
+                <div class="size Gunmetal w_25" style="height: 60px">
+                  <h4>1/4</h4>
+                </div>
+                <div class="size Gunmetal w_25" style="height: 60px">
+                  <h4>1/4</h4>
+                </div>
+                <div class="size Gunmetal w_25" style="height: 60px">
+                  <h4>1/4</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="d_flex">
+              <img src="../assets/svgs/unit.svg" class="w_50" />
+
+              <div class="no1 w_50">
+                <h6>Note</h6>
+
+                <p>
+                  When using the grid, wrap the columns using a line and use
+                  lastUnit for the last column. Refer to OOCSS base classes to
+                  learn more about the grid classes.
+                </p>
+                <p>
+                  This example applies to the other ratios we support: 1/1, 1/3,
+                  1/6, 1/8, and 1/12
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gutter">
+            <h3>Grid gutter</h3>
+            <p>
+              Our grid columns have a 60px padding on either side that results
+              in a 30px gutter between columns and a 20px gutter on the grid
+              edges for the Web, 40px padding on both side for tablet and 20px
+              padding on both sides for mobile. Even though our columns are
+              fluid, the gutter remains constant.
+            </p>
+            <div class="p_size">
+              <p>Sizes 1 of 3</p>
+
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="gutter">
+            <h3>Mixed gutter</h3>
+            <p>
+              The grid layout is easily extended by nesting and mixing different
+              column sizes.
+            </p>
+            <div class="p_size">
+              <p>Sizes 1 of 3</p>
+
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_25" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_80" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+              </div>
+              <div class="unit size2of3">
+                <div class="size Gunmetal w_70" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+                <div class="size Gunmetal w_30" style="height: 60px">
+                  <h4>1/3</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d_flex">
+            <img src="../assets/svgs/unit.svg" class="w_50" />
+
+            <div class="no1 w_50">
+              <h6>Note</h6>
+
+              <p>
+                When nesting grids use the group class to eliminate gutters on
+                the parent element of the columns that are being nested.
+              </p>
+              <p>
+                It provides a padding-less container for nested columns and
+                subsequently, helps avoid the indentation and side-padding
+                issues otherwise seen on nested columns with unit and lastUnit
+                parent classes.
+              </p>
+              <p>
+                Wherever possible, limit nesting grids to 2 levels deep.
+                Anything more than that would require the use of nopadding on
+                grid columns or units for correct grid alignment and
+                indentation.
+              </p>
+            </div>
+          </div>
+
+          <div class="resp">
+            <h3>Responsive Columns</h3>
+            <p>
+              Our different column sizes automatically change dimensions once
+              they reach certain breakpoints. To illustrate, resize your browser
+              window and you will see the grid columns change size.
+            </p>
+            <p>The following table shows the media-query breakpoints.</p>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th>Breakpoints</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Grids</td>
+                <td>1366px or More</td>
+                <td>Btw 1366px and 1024px</td>
+                <td>Btw 1024px and 768px</td>
+                <td>Btw 768px and 390px</td>
+              </tr>
+              <tr>
+                <td>Size 1 of 12</td>
+                <td>23.5%</td>
+                <td>32.5%</td>
+                <td>48.5%</td>
+                <td>100%</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <!-- ============
+        CONTENTS SELECTED ENDS
+        ================= -->
+      </article>
+    </main>
+  </body>
+</html>

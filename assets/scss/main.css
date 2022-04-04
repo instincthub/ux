@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --DarkCyan: #00838f;
+  --TurkishRose: #bc658d;
+  --Gunmetal: #2c333a;
+  --ViridianGreen: #009ba2;
+  --White: #ffffff;
+  --Rhythm: #69779b;
+  --CaribbeanGreen: #00c5a2;
+  --OldLavender: #756c83;
+  --AmericanPurple: #432160;
+  --ChineseBlue: #415b90;
+  --DarkSlateGray: #314a52;
+  --MaximumRedPurple: #a03c78;
+  --DarkLavender: #6f539b;
+  --MetallicBlue: #3c5186;
+  --TiffanyBlue: #0fabbc;
+  --PoliceBlue: #394a6d;
+  --Corn: #fbeb5b;
+  --LimeGreen: #4be133;
+  --OldRose: #394a6d;
+  --Magnolia: #f4f3fe;
+  --ChineseSilver: #cccccc;
+  --LavenderGray: #c5c0db;
+  --DeepGreen-CyanTurquoise: #206d62;
+  --Nunito: "Nunito", sans-serif;
+  --Montserat: "Montserrat", sans-serif;
+}
+
+.DarkLavender {
+  background-color: var(--DarkLavender);
+}
+
+.DeepGreen-CyanTurquoise {
+  background-color: var(--DeepGreen-CyanTurquoise);
+}
+
+.LavenderGray {
+  background-color: var(--LavenderGray);
+}
+
+.DarkSlateGray {
+  background-color: var(--DarkSlateGray);
+}
+
+.ChineseBlue {
+  background-color: var(--ChineseBlue);
+}
+
+.ChineseSilver {
+  background-color: var(--ChineseSilver);
+}
+
+.Corn {
+  background-color: var(--Corn);
+}
+
+.Magnolia {
+  background-color: var(--Magnolia);
+}
+
+.OldRose {
+  background-color: var(--OldRose);
+}
+
+.LimeGreen {
+  background-color: var(--LimeGreen);
+}
+
+.PoliceBlue {
+  background-color: var(--PoliceBlue);
+}
+
+.TiffanyBlue {
+  background-color: var(--TiffanyBlue);
+}
+
+.MetallicBlue {
+  background-color: var(--MetallicBlue);
+}
+
+.MaximumRedPurple {
+  background-color: var(--MaximumRedPurple);
+}
+
+.DarkCyan {
+  background-color: var(--DarkCyan);
+}
+
+.TurkishRose {
+  background-color: var(--TurkishRose);
+}
+
+.Rhythm {
+  background-color: var(--Rhythm);
+}
+
+.CaribbeanGreen {
+  background-color: var(--CaribbeanGreen);
+}
+
+.AmericanPurple {
+  background-color: var(--AmericanPurple);
+}
+
+.TurkishRose {
+  background-color: var(--TurkishRose);
+}
+
+.Gunmetal {
+  background-color: var(--Gunmetal);
+}
+
+.ViridianGreen {
+  background-color: var(--ViridianGreen);
+}
+
+.Rhythm {
+  background-color: var(--Rhythm);
+}
+
+.CaribbeanGreen {
+  background-color: var(--CaribbeanGreen);
+}
+
+.OldLavender {
+  background-color: var(--OldLavender);
+}
+
+.White {
+  background-color: var(--White);
+  color: var(--White);
+}
+
+.WhiteC {
+  color: var(--White);
+}
+
+a {
+  color: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--Montserat);
+  color: var(--Gunmetal);
+  font-weight: 500;
+  line-height: 110%;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 43px;
+  margin-bottom: 60px;
+  line-height: 52px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  margin-bottom: 48px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 1px solid var(--Gunmetal);
+  margin: 40px 0;
+}
+
+ul li {
+  font-family: var(--Nunito);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--Gunmetal);
+  margin: 8px 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p,
+span,
+li {
+  font-family: var(--Nunito);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--Gunmetal);
+  margin: 8px 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+nav {
+  height: 60px;
+  padding: 18px 0;
+  background-color: var(--White);
+  -webkit-box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05), 0px 2px 8px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.05), 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav .navbar img {
+  width: 177px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/*# sourceMappingURL=main.css.map */

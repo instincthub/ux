@@ -1,0 +1,399 @@
+@import "../scss/main";
+
+.banner-ff {
+  height: 380px;
+  padding-top: 120px;
+  margin-top: 60px;
+  background-color: var(--Magnolia);
+  .banner_txt {
+    h1 {
+      font-weight: 600;
+    }
+  }
+}
+.nn {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 80px;
+}
+.typos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+  aside {
+    width: 20%;
+    .side_wrap {
+      margin-bottom: 200px;
+      .club1 {
+        margin-bottom: 90px;
+        .current {
+          color: var(--White) !important;
+          font-weight: 500;
+          background-color: var(--DarkCyan);
+          transform: scale(1);
+          cursor: pointer;
+          transition: 0.4s ease;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        li {
+          padding: 16px 14px;
+          transform: scale(1);
+          border-radius: 5px;
+          transition: 0.4s ease;
+          &:hover {
+            transform: scale(1.1);
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+
+  article {
+    width: 70%;
+    .drive {
+      display: flex;
+      justify-content: space-between;
+    }
+    .color_box {
+      border: 1px solid var(--Gunmetal);
+      height: 40px;
+      a {
+        padding: 10px 16px;
+        border: 1px solid var(--Gunmetal);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.note_this {
+  margin-bottom: 90px;
+}
+
+.color {
+  display: flex;
+  // background-color: var(--DarkCyan);
+  padding: 32px 24px;
+  min-height: 200px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  transition: 0.4s ease;
+  transform: scale(1);
+  .name {
+    margin-right: auto;
+  }
+  .tables {
+    margin-top: 40px;
+    width: 40%;
+    text-align: center;
+    .bb {
+      border-bottom: 1px solid var(--Gunmetal);
+    }
+    .num1 {
+      margin-bottom: 10px;
+      span {
+        margin: 15px 20px;
+      }
+    }
+  }
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+.initial {
+  // border-bottom: 1px solid var(--Gunmetal);
+
+  margin-bottom: 30px;
+  a {
+    @include p;
+    padding: 20px;
+    transition: 0.4s;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.1);
+      color: var(--DarkCyan);
+    }
+  }
+  h3 {
+    margin: 20px 0;
+  }
+  hr {
+    border: 0.5px solid var(--Gunmetal);
+    margin: 15px 0;
+  }
+  p {
+    max-width: 605px;
+  }
+}
+
+.chart_plate {
+  margin-top: 45px;
+  h3 {
+    margin-bottom: 24px;
+  }
+  img {
+    margin-top: 40px;
+  }
+}
+
+.note {
+  margin-top: 48px;
+  h6 {
+    @include h6;
+  }
+  p {
+    max-width: 605px;
+    margin-top: 12px;
+  }
+}
+
+.combo {
+  h5 {
+    margin-top: 40px;
+  }
+
+  .spin {
+    span {
+      width: 25px;
+      height: 25px;
+      // background-color: #00838f;
+      display: inline-block;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+}
+.flag {
+  margin-top: 20px;
+  .flaghead {
+    background-color: var(--ChineseSilver);
+    color: var(--White);
+    padding: 16px;
+    width: 35%;
+    position: relative;
+    h5 {
+      margin-bottom: 10px;
+    }
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 3px;
+      height: 150px;
+      background-color: var(--ChineseSilver);
+      bottom: -140%;
+      left: 50%;
+      position: absolute;
+      // bottom: 40px;
+    }
+  }
+}
+.flg {
+  h5 {
+    margin-top: 30px;
+  }
+}
+
+.flagss {
+  margin-top: 170px;
+}
+
+.units {
+  .p_size {
+    margin-bottom: 25px;
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      // text-align: left;
+    }
+    .unit {
+      background-color: var(--ChineseSilver);
+      height: 75px;
+      h4 {
+        font-weight: 600;
+      }
+    }
+    .size1of3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 6px solid var(--Gunmetal);
+      h4 {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .Gunmetal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h4 {
+      color: var(--White);
+    }
+  }
+}
+
+.w_50 {
+  width: 48.5%;
+}
+.w_80 {
+  width: 75%;
+}
+.w_70 {
+  width: 65%;
+}
+.w_30 {
+  width: 32.5%;
+}
+.w_25 {
+  width: 23.5%;
+}
+.size2of3 {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    color: var(--White);
+  }
+}
+.max_605 {
+  max-width: 605px;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no1 {
+  margin-bottom: 80px;
+  margin-top: 25px;
+  h6 {
+    @include h6;
+    margin-bottom: 20px;
+  }
+}
+.gutter {
+  margin-top: 60px;
+}
+.resp {
+  margin-bottom: 60px;
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+.nuni {
+  margin-top: 48px;
+  h3 {
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+}
+.headings {
+  .p_head {
+    margin-top: 21px;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      margin: 0;
+      font-weight: 600;
+    }
+    h1 {
+      font-size: 48px;
+      // font-weight: 700;
+      line-height: 53px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    h5 {
+      // font-family: Montserrat;
+      color: #818181;
+      font-size: 20px;
+      margin: 0;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: left;
+    }
+    p {
+      color: #818181;
+    }
+  }
+  .h_body {
+    margin-top: 20px;
+    h4 {
+      // font-family: Nunito;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    h5,
+    p {
+      color: #818181;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+}
+
+.paragraph {
+  margin-top: 80px;
+  h4 {
+    margin-top: 22px;
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+}
+
+.sec1 {
+  margin-bottom: 50px;
+}
+.sub_sec {
+  margin-top: 40px;
+  h4 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.examples {
+  button {
+    width: auto;
+    padding: 8px 30px;
+    margin-right: 10px;
+  }
+}
+
+.unit4 {
+  margin-top: 40px;
+  .note {
+    margin: 0;
+  }
+}
+
+.s_margin {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}

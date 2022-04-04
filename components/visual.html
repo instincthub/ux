@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/instincthub-thumnail.png"
+    />
+    <title>Instincthub - Data Visualization</title>
+    <link rel="stylesheet" href="../assets/scss/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="container navbar">
+          <img src="../assets/svgs/instinctHub.svg" alt="" />
+        </div>
+      </nav>
+
+      <section class="banner-ff">
+        <div class="banner_txt container">
+          <h1>Instincthub Pattern Library</h1>
+          <p>Our pattern library used to build the instincthub application.</p>
+        </div>
+      </section>
+
+      <article class="container typos">
+        <!-- ===========
+        SELECTION FIELD
+        ================ -->
+        <aside>
+          <div class="side_wrap">
+            <h5>FOUNDATION</h5>
+
+            <ul class="club1">
+              <li><a href="../index.html">Color</a></li>
+              <li class="current">
+                <a href="../components/visual.html">Data Visualization</a>
+              </li>
+              <li><a href="../components/grid.html">Grid System</a></li>
+              <li><a href="../components/typo.html">Typography</a></li>
+            </ul>
+
+            <h5>COMPONENTS</h5>
+            <ul class="club1">
+              <li><a href="">Button</a></li>
+              <li><a href="">Dialog</a></li>
+              <li><a href="">Tools Box</a></li>
+              <li><a href="">Form Elements</a></li>
+              <li><a href="">Helper Classes</a></li>
+              <li><a href="">Iconography</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- ============
+        CONTENTS SELECTED
+        ================= -->
+        <article>
+          <h2>Data Visualization</h2>
+
+          <div class="initial">
+            <a href="#">Charts</a>
+            <a href="#">Palette</a>
+            <a href="#">Fly-over</a>
+            <hr />
+            <p>
+              Data elps us make informed decisions. Therefore, data should be
+              clear; it should not be overly decorative and it should be
+              presented in a meaningful way. Below are a few standards that
+              we’ve set for telling visual data stories.
+            </p>
+          </div>
+
+          <div class="chart_plate">
+            <h3>Charts</h3>
+            <p>
+              Stylistically, our charts and graphs draw inspiration from a more
+              grown-up, editorial style.
+            </p>
+            <img src="../assets/svgs/Chart.svg" alt="" />
+          </div>
+
+          <div class="note">
+            <h6>Note</h6>
+            <p>
+              Use Curved lines to indicate actual trends in data. Use dotted to
+              show data representation at that point of interaction.
+            </p>
+            <p>Lines should be 3pts in weight and curved.</p>
+          </div>
+          <hr />
+          <div class="load">
+            <h4>Meter Chart</h4>
+            <img style="width: 350px" src="../assets/svgs/meter.svg" alt="" />
+          </div>
+
+          <div class="note">
+            <h6>Note</h6>
+            <p>
+              Data in these charts always add up to 100%. If there is more than
+              one category represented, always break categories using sub-title
+              text.
+            </p>
+            <p>
+              layout can be unique from chart to chart but the bars themselves
+              always have a height (or width if vertical) that’s a multiple of
+              eight (or four but that is the exception).
+            </p>
+            <p>
+              Limit representation to fewer than Five(5) categories. If you must
+              represent more than Five categories, consider truncating data to
+              include the top four categories and then include smaller data sets
+              in an 'other' category
+            </p>
+          </div>
+
+          <hr />
+
+          <h3>Palette</h3>
+          <h4>Categorical Color Combos</h4>
+          <p>
+            The colors for our charts come from our predefined categorical
+            combo. When building a data story, Use the established combo for
+            visual harmony and accessibility optimization. Feel free to use
+            combo when creating multiple charts on a page.
+          </p>
+          <div class="combo">
+            <h5>Combo</h5>
+
+            <div class="spin">
+              <span class="TurkishRose"></span>
+              <span class="ChineseSilver"></span>
+              <span class="Gunmetal"></span>
+            </div>
+          </div>
+          <hr />
+
+          <div class="flyover">
+            <h3>Fly-Over</h3>
+            <h4>Overview</h4>
+
+            <p>
+              The fly-over should not only activate on hover. It should present
+              itself when a highlightable portion of a chart is selectable. On
+              mobile, a user should be able to tap on a portion of the graph to
+              make it appear.
+            </p>
+            <p>
+              The fly-over is not always necessary but is recommended unless
+              there’s another piece of the UI that highlights the selected data
+              and ties those two things together.
+            </p>
+
+            <div class="flag">
+              <div class="flaghead">
+                <h5>Feb 01,2016</h5>
+                <p>$16,006.12 from others</p>
+              </div>
+            </div>
+            <div class="flagss">
+              <div class="flg">
+                <h5>Flag</h5>
+                <p>
+                  The flag is Peppercorn at 90% opacity. It should be centered
+                  at the data it points to and pinned to the highest reasonable
+                  point of a chart.
+                </p>
+              </div>
+              <div class="flg">
+                <h5>Pole</h5>
+                <p>
+                  The flag is Peppercorn at 90% opacity. It should be centered
+                  at the data it points to and pinned to the highest reasonable
+                  point of a chart.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- ============
+        CONTENTS SELECTED ENDS
+        ================= -->
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/instincthub-thumnail.png"
+    />
+    <title>Instincthub - Button</title>
+    <link rel="stylesheet" href="../assets/scss/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="container navbar">
+          <img src="../assets/svgs/instinctHub.svg" alt="" />
+        </div>
+      </nav>
+
+      <section class="banner-ff">
+        <div class="banner_txt container">
+          <h1>Instincthub Pattern Library</h1>
+          <p>Our pattern library used to build the instincthub application.</p>
+        </div>
+      </section>
+
+      <article class="container typos">
+        <!-- ===========
+        SELECTION FIELD
+        ================ -->
+        <aside>
+          <div class="side_wrap">
+            <h5>FOUNDATION</h5>
+
+            <ul class="club1">
+              <li><a href="../index.html">Color</a></li>
+              <li>
+                <a href="../components/visual.html">Data Visualization</a>
+              </li>
+              <li>
+                <a href="../components/grid.html">Grid System</a>
+              </li>
+              <li>
+                <a href="../components/typo.html">Typography</a>
+              </li>
+            </ul>
+
+            <h5>COMPONENTS</h5>
+            <ul class="club1">
+              <li class="current">
+                <a href="../components/button.html">Button</a>
+              </li>
+              <li><a href="../components/dialog.html">Dialog</a></li>
+              <li><a href="../components/tools.html">Tools Box</a></li>
+              <li><a href="">Form Elements</a></li>
+              <li><a href="">Helper Classes</a></li>
+              <li><a href="">Iconography</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- ============
+        CONTENTS SELECTED
+        ================= -->
+        <article>
+          <div class="button">
+            <h2>Buttons</h2>
+
+            <div class="initial">
+              <a href="#">Priority</a>
+              <a href="#">Disabled</a>
+              <a href="#">Loading</a>
+              <a href="#">Pagination</a>
+              <hr />
+              <h3>Priority</h3>
+              <p>
+                Buttons are categorized by importance and can be applied to a
+                variety of html nodes. Each variation has intention and should
+                be used sparingly.
+              </p>
+            </div>
+
+            <div class="examples">
+              <h4>Examples</h4>
+
+              <button class="default-btn">Default</button>
+              <button class="important-btn">Important</button>
+              <button class="primary-btn">Primary</button>
+              <button class="danger-btn">Danger</button>
+            </div>
+
+            <div class="d_flex unit4">
+              <img src="../assets/svgs/unit4.svg" alt="Unit4" class="w_50" />
+
+              <div class="note w_50">
+                <h6>Note</h6>
+                <p>
+                  You can create buttons using the button HTML tag accompanied
+                  by the button class.
+                </p>
+                <p>
+                  To style an anchor (a) tag as a button use the button class.
+                </p>
+                <p>
+                  To style an input as a button use the button class and define
+                  a label by adding a value attribute.
+                </p>
+              </div>
+            </div>
+
+            <div class="disabled s_margin">
+              <h3>Disabled</h3>
+              <div class="examples">
+                <h4>Examples</h4>
+
+                <button class="default-btn" disabled>Default</button>
+                <button class="important-btn" disabled>Important</button>
+                <button class="primary-btn" disabled>Primary</button>
+                <button class="danger-btn" disabled>Danger</button>
+              </div>
+
+              <div class="d_flex unit4">
+                <img src="../assets/svgs/unit5.svg" alt="Unit5" class="w_50" />
+
+                <div class="note w_50">
+                  <h6>Note</h6>
+                  <p>
+                    In most situations we recommend using the semantic disabled
+                    attribute for appropriate HTML elements. If needed there is
+                    a companion disabled utility class.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="loading s_margin">
+              <h3>Loading</h3>
+              <p>
+                These buttons are used when we have a time-intensive action on
+                the page. We use them to provide feedback to the user and let
+                them know the action is in progress.
+              </p>
+
+              <div class="examples">
+                <h4>Examples</h4>
+
+                <button class="default-btn" disabled>Default</button>
+                <button class="important-btn" disabled>Important</button>
+                <button class="primary-btn" disabled>Primary</button>
+                <button class="danger-btn" disabled>Danger</button>
+              </div>
+
+              <div class="d_flex unit4">
+                <img src="../assets/svgs/unit6.svg" alt="Unit6" class="w_50" />
+
+                <div class="note w_50">
+                  <h6>Note</h6>
+                  <p>
+                    Dynamically add the button-loading class to the button after
+                    the first press. After the request is completed, remove the
+                    class.
+                  </p>
+                  <p>
+                    It's advisable to toggle the disabled attribute as well.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="s_margin pagtn">
+              <h3>Pagination</h3>
+              <h4>Examples</h4>
+              <div class="pagination">
+                <a href="#">First</a>
+                <!-- ADD ICON -->
+                <a href="#">1</a>
+                <a href="#" class="active">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <!-- ADD ICON -->
+                <a href="#">Last</a>
+              </div>
+            </div>
+
+            <div class="d_flex unit4 s_margin">
+              <img src="../assets/svgs/unit7.svg" alt="Unit7" class="w_50" />
+
+              <div class="note w_50">
+                <h6>Note</h6>
+                <p>
+                  There are situations when buttons are grouped for a related
+                  function. For example, in paging controls for previous-next
+                  buttons.
+                </p>
+                <p>Wrap two or more buttons using the pagination class.</p>
+                <p>
+                  Adding the regular class to style like the example. A dark
+                  style is also available.
+                </p>
+                <p>
+                  If the button has no accessible name or uses an icon, include
+                  an aria-label attribute.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- ============
+        CONTENTS SELECTED ENDS
+        ================= -->
+      </article>
+    </main>
+  </body>
+</html>
