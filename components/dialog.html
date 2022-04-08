@@ -63,9 +63,10 @@
                 <a href="../components/dialog.html">Dialog</a>
               </li>
               <li><a href="../components/tools.html">Tools Box</a></li>
-              <li><a href="">Form Elements</a></li>
-              <li><a href="">Helper Classes</a></li>
-              <li><a href="">Iconography</a></li>
+              <li><a href="../components/form.html">Form Elements</a></li>
+              <li><a href="../components/nav.html">Navigation</a></li>
+              <li><a href="../components/helper.html">Helper Classes</a></li>
+              <li><a href="../components/icon.html">Iconography</a></li>
             </ul>
           </div>
         </aside>
@@ -88,9 +89,78 @@
               </p>
 
               <h4>Example</h4>
-              <button class="default-btn" style="width: 214px">
+              <button
+                class="default-btn"
+                style="width: 214px"
+                onclick="showOverlay()"
+              >
                 Show Generic Modal
               </button>
+            </div>
+
+            <div class="d_flex unit4 s_margin">
+              <pre class="w_50">
+&lt;form action="" class="overlay" id="overlay_"&gt;
+    &lt;div class="it_card">
+      &lt;div class="it_top">
+        &lt;h4>Are you sure ?&lt;/h4&gt;
+      &lt;/div&gt;
+
+      &lt;div class="it_content&gt;
+          &lt;p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis nesciunt ipsam dolore optio velit mollitia obcaecati
+            earum architecto. Magnam, atque. Quos tempora sit accusamus fugit
+            laborum error cumque, aut eos?
+          &lt;/p&gt;
+
+            &lt;div class="bbtn"&gt;
+              &lt;button class="important-btn" type="submit">Accept&lt;/button&gt;
+              &lt;div onclick="remove_class()">Cancel&lt;/div&gt;
+            &lt;/div&gt;
+
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/form&gt;
+              </pre>
+
+              <div class="note w_50">
+                <h6>Note</h6>
+                <p>
+                  Modals in the app are defined using Dijit's Dialog plugin. The
+                  modal_id is used to bind the button onclick events to
+                  show/hide the modal.
+                </p>
+                <p>
+                  The primary action in the modal and dialog appears before the
+                  secondary action.
+                </p>
+              </div>
+            </div>
+
+            <div class="s_margin">
+              <h3>Feature Dialog</h3>
+              <h4>Example</h4>
+              <button class="default-btn" style="width: 214px">
+                Show Feature Modal
+              </button>
+              <div class="d_flex unit4 s_margin">
+              <img src="" alt="">
+
+                <div class="note w_50">
+                  <h6>Note</h6>
+                  <p>
+                    Use the feature-dialog class to show a dialog with a simpler
+                    look and feel.
+                  </p>
+                  <p>
+                    This type of dialog should be used sparingly and not shown
+                    more than once. They should be easily dismissible as they
+                    don't feature a close icon.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </article>
@@ -98,6 +168,28 @@
         CONTENTS SELECTED ENDS
         ================= -->
       </article>
+
+      <form action="" class="overlay" id="overlay_">
+        <div class="it_card">
+          <div class="it_top">
+            <h4>Are you sure ?</h4>
+          </div>
+          <div class="it_content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis nesciunt ipsam dolore optio velit mollitia obcaecati
+              earum architecto. Magnam, atque. Quos tempora sit accusamus fugit
+              laborum error cumque, aut eos?
+            </p>
+            <div class="bbtn">
+              <button class="important-btn" type="submit">Accept</button>
+              <div onclick="remove_class()">Cancel</div>
+            </div>
+          </div>
+        </div>
+      </form>
     </main>
+
+    <script src="../assets/js/overlay.js"></script>
   </body>
 </html>

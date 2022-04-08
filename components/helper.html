@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/images/instincthub-thumnail.png"
+    />
+    <title>Instincthub - Navigation</title>
+    <link rel="stylesheet" href="../assets/scss/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="container navbar">
+          <img src="../assets/svgs/instinctHub.svg" alt="" />
+        </div>
+      </nav>
+
+      <section class="banner-ff">
+        <div class="banner_txt container">
+          <h1>Instincthub Pattern Library</h1>
+          <p>Our pattern library used to build the instincthub application.</p>
+        </div>
+      </section>
+
+      <article class="container typos">
+        <!-- ===========
+        SELECTION FIELD
+        ================ -->
+        <aside>
+          <div class="side_wrap">
+            <h5>FOUNDATION</h5>
+
+            <ul class="club1">
+              <li><a href="../index.html">Color</a></li>
+              <li>
+                <a href="../components/visual.html">Data Visualization</a>
+              </li>
+              <li>
+                <a href="../components/grid.html">Grid System</a>
+              </li>
+              <li>
+                <a href="../components/typo.html">Typography</a>
+              </li>
+            </ul>
+
+            <h5>COMPONENTS</h5>
+            <ul class="club1">
+              <li>
+                <a href="../components/button.html">Button</a>
+              </li>
+              <li>
+                <a href="../components/dialog.html">Dialog</a>
+              </li>
+              <li>
+                <a href="../components/tools.html">Tools Box</a>
+              </li>
+              <li>
+                <a href="../components/form.html">Form Elements</a>
+              </li>
+              <li>
+                <a href="../components/nav.html">Navigation</a>
+              </li>
+              <li class="current">
+                <a href="../components/helper.html">Helper Classes</a>
+              </li>
+              <li><a href="../components/icon.html">Iconography</a></li>
+            </ul>
+          </div>
+        </aside>
+        <!-- ============
+        CONTENTS SELECTED
+        ================= -->
+
+        <article>
+          <div class="helper_class">
+            <h2>Helper Classes</h2>
+
+            <div class="initial">
+              <a href="#">Spacing</a>
+              <a href="#">Typography</a>
+              <a href="#">Display</a>
+
+              <hr />
+              <p>
+                We have a number of helper classes that allow us to quickly
+                style elements throughout the application without adding
+                unnecessary bloat and complexity to our CSS. This also allows us
+                to keep our CSS specificity low.
+              </p>
+            </div>
+
+            <div class="spacing s_margin">
+              <h3>Spacing</h3>
+              <p>
+                For consistent spacing and to maintain a vertical rhythm, we use
+                a level system for both margin and padding. Padding can be
+                applied by using the classes padding--lv1 through padding--lv8,
+                while margin uses the margin--lv1 through margin--lv8 scale. Use
+                padding--lv0 or margin--lv0 to completely remove any margin or
+                padding from the element.
+              </p>
+              <p>The ! prefix is a way to indicate !important on the style.</p>
+            </div>
+
+            <div class="common_classes max_605 mt-4">
+              <h5>Note</h5>
+              <p>
+                To fine tune the padding and margin for an element, supplement
+                the padding level with the following classes:
+              </p>
+
+              <ul class="mt-2">
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+              </ul>
+            </div>
+            <div class="common_classes max_605 mt-4">
+              <h5>Margin Helpers</h5>
+
+              <ul class="mt-2">
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+                <li>I am changing this to common classes</li>
+              </ul>
+            </div>
+            <div class="typo_table s_margin">
+              <h3>Typography</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Class Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>d_flex</td>
+                    <td>
+                      Display two elements side by side with space between
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>
+                Additional classes related to white space and word wrapping are
+                available such as: white-space--normal, white-space--nowrap,
+                white-space--preline, word-wrap--break-all, and
+                word-wrap--break-word.
+              </p>
+            </div>
+
+            <div class="typo_table s_margin">
+              <h3>Display and visibility</h3>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Class Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>d_flex</td>
+                    <td>
+                      Display two elements side by side with space between
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </article>
+        <!-- ============
+        CONTENTS SELECTED ENDS
+        ================= -->
+      </article>
+    </main>
+
+    <script src="../assets/js/password.js"></script>
+  </body>
+</html>
