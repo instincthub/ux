@@ -110,19 +110,15 @@
               <!-- Note Template -->
               <div class="d_flex unit4">
                 <pre class="w_50">
-&lt;select name="" id=""&gt;
+&lt;ul class="navlinks"&gt;
 
-    &lt;option value="">
-    Select an Option 
-    &lt;/option&gt;
+    &lt;li&gt;&lt;a href="" class="dropdown"&gt;Dropdown&lt;/a>&lt;/li&gt;
+    &lt;li&gt;&lt;a href=""&gt;Pricing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=""&gt;Bootcamp&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=""&gt;Scoreboard&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=""&gt;Forum&lt;/a>&lt;/li&gt;
 
-    &lt;option value="">Monday 
-    &lt;/option&gt;
-
-    &lt;option value="">Tuesday
-        &lt;/option&gt;
-
-&lt;/select&gt;
+&lt;/ul&gt;
 
                 </pre>
                 <div class="note w_50">
@@ -132,18 +128,9 @@
                     select as these should be used sparingly. It is not the most
                     effective way to display large amounts of data.
                   </p>
-                  <p>
-                    If you must create a multi select, define a regular select
-                    with options. Then, define the data-dojo-type of the element
-                    to data-dojo-type="dojox/form/CheckedMultiSelect"
-                  </p>
-                  <p>
-                    Make sure you add the following attributes: dropDown="true"
-                    multiple="true" labelText="Select options"
-                  </p>
+                 <p>You can find the style on line 391 - 404</p>
                 </div>
               </div>
-
               <!-- Ends -->
             </div>
 
@@ -167,19 +154,58 @@
                     <!-- Note Template -->
                     <div class="d_flex unit4">
                       <pre class="w_50">
-&lt;select name="" id=""&gt;
+&lt;div class="tab_parent"&gt;
+  &lt;div class="tab__group"&gt;
 
-    &lt;option value="">
-    Select an Option 
-    &lt;/option&gt;
+  TAB1
+    &lt;div class="tab"&gt;
+      &lt;input
+        class="tab__radio"
+        type="radio"
+        id="tab-1"
+        name="tab-group-1"
+        checked
+      /&gt;
+      &lt;label class="tab__label" for="tab-1"&gt;Tab One &lt;/label&gt;
 
-    &lt;option value="">Monday 
-    &lt;/option&gt;
+      &lt;div class="tab__content"
+        Your Content here
+      &lt;/div&gt;
+    &lt;/div&gt;
 
-    &lt;option value="">Tuesday
-        &lt;/option&gt;
+    TAB2
+    &lt;div class="tab"&gt;
+      &lt;input
+        class="tab__radio"
+        type="radio"
+        id="tab-2"
+        name="tab-group-1"
+        checked
+      /&gt;
+      &lt;label class="tab__label" for="tab-2"&gt;Tab Two &lt;/label&gt;
 
-&lt;/select&gt;
+      &lt;div class="tab__content"
+        Your Content here 2
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    TAB3
+    &lt;div class="tab"&gt;
+      &lt;input
+        class="tab__radio"
+        type="radio"
+        id="tab-3"
+        name="tab-group-1"
+        checked
+      /&gt;
+      &lt;label class="tab__label" for="tab-3"&gt;Tab Three &lt;/label&gt;
+
+      &lt;div class="tab__content"
+        Your Content here
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 
                 </pre
                       >
@@ -191,17 +217,8 @@
                           not the most effective way to display large amounts of
                           data.
                         </p>
-                        <p>
-                          If you must create a multi select, define a regular
-                          select with options. Then, define the data-dojo-type
-                          of the element to
-                          data-dojo-type="dojox/form/CheckedMultiSelect"
-                        </p>
-                        <p>
-                          Make sure you add the following attributes:
-                          dropDown="true" multiple="true" labelText="Select
-                          options"
-                        </p>
+                       <p>You can find the style from line 406 - 470</p>
+                       
                       </div>
                     </div>
 
